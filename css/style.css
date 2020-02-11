@@ -1,0 +1,302 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*header start here*/
+header{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.menu{
+    
+}
+.menu ul li a{
+    padding: 9px 10px !important;
+    border-radius: 25px;
+    color: #2f2f2f !important;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    background-color: #eb1b2b !important;
+    color: white !important;
+}
+.menu ul li a:last-child{
+    padding-right: 0;
+}
+/*header end here*/
+
+/*banner start here*/
+.banner{
+    background-color: #3b3024;
+    color: #ffffff;
+    padding-top:124px;
+    padding-bottom: 110px;
+}
+.common-title{
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.common-paragraph{
+    font-weight: 200;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    padding: 30px 0px;
+}
+.banner-button{
+}
+.btn-banner{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-right:20px;
+    transition: .5s;
+   
+}
+.btn-banner:hover{
+    background-color: #eb1b2b;
+    border: none;
+    color: white;
+}
+/*banner end here*/
+
+
+/*feature start here*/
+.feature{
+     background-color: #fbfbfb;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.feature-content{
+}
+.c-title{
+    font-weight: 900;
+    font-size: 30px;
+} 
+.c-p{
+    letter-spacing: 0px;
+    padding: 30px 0px;
+    color: #353535;
+}
+.f-content{
+    padding: 30px 45px;
+   background-color: #ffffff;
+}
+.f-title{
+    font-size: 25px;
+}
+.f-icon{
+    color: #eb1b2b;
+
+}
+.c-p1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.f-c-link{
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition: .5s;
+    color: #353535;
+}
+.f-c-link:hover{
+    background-color: #eb1b2b;
+    border: none;
+    color: white;
+}
+/*feature end here*/
+
+
+
+/*blog start here*/
+
+.blog{
+    background-color: #3b3024;
+    padding: 90px;
+}
+.blog-box{
+    background-color: #a71610;
+    padding: 35px 35px 20px;
+    color: white;
+    transition: .5s;
+}
+.blog-box:hover{
+    background-color: #fcfcfc;
+    color: #a71610;
+    
+}
+.blog-box h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 53px;
+    
+}
+.blog-box h2{
+    font-weight: 200;
+    font-size: 16px;
+}
+.blog-btn {
+    padding-top: 90px;
+}
+.space{
+    letter-spacing: 4px;
+    
+}
+/*blog end here*/
+
+
+/*team start here*/
+.team{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.team-item{
+    padding-top: 60px;
+}
+.card-item{
+    transition: .5s;
+    margin-top: 20px;
+}
+.card-item:hover{
+    transform: scale(1.1);
+}
+.m-t{
+    margin-top: 15px;
+}
+/*team end here*/
+
+
+/*campaign start here*/
+.campaign{
+    padding-bottom: 80px;
+}
+.campaign-item{
+    transition: .5s;
+
+}
+.campaign-img{
+    position: relative;
+    
+}
+.custom-position{
+
+}
+.campaign-item:hover{
+    transform: scale(1.1);
+}
+.campaign-p{
+    padding: 20px 0px;
+}
+/*campaign end here*/
+
+/*member start here*/
+.member{
+    background-color: #3b3024;
+    padding: 70px 0px;
+}
+.member-content {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.m-count{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    padding: 20px 0px;
+}
+.m-p{}
+.button-m{
+    padding-top: 30px;
+}
+.btn-member{
+    background-color: #252525;
+    transition: .5s;
+}
+.btn-member:hover{
+    background-color: #eb1b2b;
+}
+/*member end here*/
+
+/*news start here*/
+.news{
+    padding-top: 70px;
+    padding-bottom: 85px;
+}
+.n-title{
+    padding-bottom: 60px;
+}
+.news-card{
+    padding-bottom: 110px;
+}
+.news-item{}
+.news-title {
+    font-size: 16px;
+    font-weight: 900;
+}
+.news-p {
+    font-weight: 200;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 15px 0px;
+}
+.btn-news{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border: 1px solid #eb1b2b;
+    transition: .5s;
+}
+.btn-news:hover{
+    color: white;
+    background-color: #eb1b2b;
+    border: none;
+    outline: none;
+}
+.news-box{
+    transition: .5s;
+}
+.news-box:hover{
+    transform: scale(1.1);
+}
+/*news end here*/
+
+
+/*footer start here*/
+footer{
+    background-color: #e1e3e6;
+    padding: 60px 0px;
+
+}
+.footer-logo{
+}
+.footer-icon {
+    font-size: 20px;
+    margin-left: 13px;
+}
+.footer-icon ul li{
+    padding: 0px 6px;
+    transition: .5s;
+}
+.footer-icon ul li:hover{
+    transform: scale(1.5);
+    
+}
+.footer-p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 4px;
+    float: right;
+}
+
+/*footer end herwe*/
+
